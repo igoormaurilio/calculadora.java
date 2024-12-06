@@ -1,5 +1,4 @@
 package teste;
-
 import java.util.Scanner;
 
 public class calculadora {
@@ -18,8 +17,6 @@ public class calculadora {
 		System.out.println("4 - Divisão    ");
 		System.out.println("Selecione uma opção: ");
 		int opcao = scn.nextInt();
-
-
 
 	System.out.print("Digite o primeiro número: ");
 		double num1 = scn.nextDouble();
@@ -54,14 +51,5 @@ public class calculadora {
 	System.out.println("Opção inválida!");
 }
 		scn.close();
-
-
 }
 }
-	
-	
-	
-	
-	
-	
-
